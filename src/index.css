@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+
+:root{
+  --primary: #FF6347;
+  --background: #eaece5;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.body {
+  font-family: 'Inter Tight', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}

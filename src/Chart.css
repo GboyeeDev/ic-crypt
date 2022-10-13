@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&display=swap');
+
+.chart {
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-height: 40vh;
+    flex-direction: column;
+    padding: 40px;
+    font-size: 1rem;
+    clip-path: polygon(0 0, 100% 2%, 100% 100%, 0% 99%);
+    background-color: #eaece5;
+}
+
+input{
+    padding-left: 5px;
+    font-size: 20px;
+    width: 250px;
+    height: 30px;
+}
+
+table{  
+    width: 1000px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+thead{  
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+}
+  
+tbody > tr{  
+    text-align: right;
+}
+
+.rank{
+    text-align: center;
+    font-weight: bold;
+  }
+
+.logo{  
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+.symbol{ 
+    text-align: center;
+}
