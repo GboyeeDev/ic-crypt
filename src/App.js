@@ -3,7 +3,7 @@ import Display from "./Display";
 import NavBar from "./NavBar";
 
 
-
+// connecting all components
 function App() {
   return (
     <>
