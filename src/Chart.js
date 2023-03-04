@@ -9,6 +9,7 @@ function Chart() {
     const [crypt, setCrypt] = useState([]);
 
     useEffect(() => {
+        // axios req
         axios.get('https://api.coinstats.app/public/v1/coins?skip=0&limit=69&currency=NGN')
         .then((res) => {
             setCrypt(res.data.coins);
